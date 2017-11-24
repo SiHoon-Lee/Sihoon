@@ -17,6 +17,8 @@ brew "zsh"
 brew "zsh-syntax-highlighting"
 brew 'gzip'
 
+brew cask install "keepingyouawake"
+
 cask "docker"
 cask '1password'
 cask 'google-chrome'
