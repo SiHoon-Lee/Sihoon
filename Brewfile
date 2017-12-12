@@ -16,8 +16,11 @@ brew 'node'
 brew "zsh"
 brew "zsh-syntax-highlighting"
 brew 'gzip'
+brew "wget"
+brew "mas"
 
 brew cask install "keepingyouawake"
+mas "WinArchiver Lite", id: 414855915
 
 cask "docker"
 cask '1password'
