@@ -1,8 +1,8 @@
+cask_args appdir: '/Applications'
+
 tap "caskroom/cask"
 tap "homebrew/bundle"
 tap "homebrew/core"
-
-cask_args appdir: '/Applications'
 
 brew 'cask'
 brew "git"
@@ -19,9 +19,6 @@ brew 'gzip'
 brew "wget"
 brew "mas"
 
-brew cask install "keepingyouawake"
-mas "WinArchiver Lite", id: 414855915
-
 cask "docker"
 cask '1password'
 cask 'google-chrome'
@@ -34,7 +31,7 @@ cask 'android-file-transfer'
 cask 'sublime-text'
 cask 'mysqlworkbench'
 cask 'alfred'
-cask 'postman'
+cask 'caskroom/cask/postman'
 
 cask 'caskroom/fonts/font-3270'
 cask 'caskroom/fonts/font-abeezee'
